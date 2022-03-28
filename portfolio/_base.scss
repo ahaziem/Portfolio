@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Radley:ital@0;1&family=Roboto&display=swap');
+$font-body:"Roboto", sans-serif;
+$font-display: "Radley", cursive;
+
+$color-primary:#800055;
+$color-primary-light: #B6819B;
+$color-secondary: #FFF3FE;
+$color-black: #333333;
+$color-white: #fafafa;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font-body;
+    color:$color-black;
+}
+
+a:link,
+a:visited {
+ text-decoration: none;
+}

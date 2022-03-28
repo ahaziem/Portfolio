@@ -1,0 +1,100 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+.link-group{
+    list-style: none;
+    display: flex;
+}
+
+.link a{
+    color: $color-white;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 10px 30px;
+    margin: 0 20px;
+    line-height: 80px;
+    font-size: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    background: $color-secondary;
+    flex-wrap: wrap;
+    align-content: space-between;
+    align-items: auto;
+}
+
+body {
+    width: 100%;
+    margin: 20px 0;
+    font-family: sans-serif;
+    background: $color-secondary;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    align-items: space-between;
+    
+}
+
+.body-section {
+    width: 100%;
+    margin: 20px 0;
+    font-family: sans-serif;
+    background: $color-secondary;
+}
+
+.Michelle-heading {
+    text-align: center;
+    width: 100%;
+    font-family: $font-body;
+    font-weight: 400;
+    font-size: 100px;
+    line-height:1 ;
+    color: #800055;
+}
+
+.Intro {
+    color: $color-black;
+    font-size: 2rem;
+    width: 100%;
+    padding: 14px 16px;
+
+}
+
+
+.About-Me {
+width: 100%;
+margin: 20px 0;
+font-family: $font-body;
+font-weight: 700;
+font-size: 21px;
+line-height: 25px;
+color: #000000;
+padding: 14px 16px;
+
+}
+
+.M.Project {
+    height: 50vh;
+    display: flex;
+    background-color: #B6819B;
+    padding: 14px 16px;
+    margin: 20px 0;
+}
+
+.projectswork {
+width: 100%;
+display: grid;
+font-family:$font-body;
+font-weight: 700;
+font-size: 21px;
+line-height: 25px;
+color: #000000;
+padding: 14px 16px;
+margin: 20px 0;
+}
